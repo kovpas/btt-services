@@ -49,6 +49,18 @@
 		48F153E82126E6E10021D020 /* CTSControlStripServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F153E72126E6E10021D020 /* CTSControlStripServiceTests.m */; };
 		48F153EB2126E8F50021D020 /* CTSAudioToolboxControlStripServiceTestStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F153EA2126E8F50021D020 /* CTSAudioToolboxControlStripServiceTestStub.m */; };
 		48F153EE2126EA4B0021D020 /* CTSCoreGraphicsEventControlStripServiceTestStub.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F153ED2126EA4B0021D020 /* CTSCoreGraphicsEventControlStripServiceTestStub.m */; };
+		E9D1D12F21BF1043007A997C /* CTSLocaleService.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D12121BF1016007A997C /* CTSLocaleService.m */; };
+		E9D1D13021BF1043007A997C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D1D12321BF1016007A997C /* main.m */; };
+		E9D1D13121BF1602007A997C /* CTSBetterTouchToolWebServerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 48877622212634DF00685702 /* CTSBetterTouchToolWebServerConfiguration.m */; };
+		E9D1D13221BF19F4007A997C /* NSDictionary+CTSCommandLineArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AF8E03212625A800EF5A6F /* NSDictionary+CTSCommandLineArguments.m */; };
+		E9D1D13321BF1B4D007A997C /* NSURL+CTSBetterTouchToolWebServerEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 488776262126379D00685702 /* NSURL+CTSBetterTouchToolWebServerEndpoint.m */; };
+		E9DC718D21BFCB6C000CDBDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC718121BFCB0D000CDBDB /* main.m */; };
+		E9DC71B321BFD127000CDBDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC71B221BFD127000CDBDB /* main.m */; };
+		E9DC71B621BFD183000CDBDB /* BuienalarmHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC71B521BFD183000CDBDB /* BuienalarmHelper.m */; };
+		E9DC71B721BFD882000CDBDB /* NSDictionary+CTSCommandLineArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AF8E03212625A800EF5A6F /* NSDictionary+CTSCommandLineArguments.m */; };
+		E9DC71BA21BFE7BA000CDBDB /* NSImage+CTSBase64Representation.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC71B921BFE7BA000CDBDB /* NSImage+CTSBase64Representation.m */; };
+		E9DC71BD21BFEEB7000CDBDB /* NSDate+CTSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC71BC21BFEEB7000CDBDB /* NSDate+CTSUtils.m */; };
+		E9DC71C021C04AF2000CDBDB /* NSAttributedString+CTSReadableEventStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DC71BF21C04AF2000CDBDB /* NSAttributedString+CTSReadableEventStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +95,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		48F152C62126DA7F0021D020 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E9D1D12621BF1036007A997C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E9DC718421BFCB4C000CDBDB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E9DC71A821BFCCCE000CDBDB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -138,6 +177,22 @@
 		48F153EA2126E8F50021D020 /* CTSAudioToolboxControlStripServiceTestStub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTSAudioToolboxControlStripServiceTestStub.m; sourceTree = "<group>"; };
 		48F153EC2126EA4B0021D020 /* CTSCoreGraphicsEventControlStripServiceTestStub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTSCoreGraphicsEventControlStripServiceTestStub.h; sourceTree = "<group>"; };
 		48F153ED2126EA4B0021D020 /* CTSCoreGraphicsEventControlStripServiceTestStub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTSCoreGraphicsEventControlStripServiceTestStub.m; sourceTree = "<group>"; };
+		E9D1D12121BF1016007A997C /* CTSLocaleService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTSLocaleService.m; sourceTree = "<group>"; };
+		E9D1D12221BF1016007A997C /* CTSLocaleService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTSLocaleService.h; sourceTree = "<group>"; };
+		E9D1D12321BF1016007A997C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9D1D12821BF1036007A997C /* locale-service */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "locale-service"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DC718121BFCB0D000CDBDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9DC718621BFCB4C000CDBDB /* localebase64icon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = localebase64icon; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DC71AA21BFCCCE000CDBDB /* buienalarm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = buienalarm; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DC71B221BFD127000CDBDB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9DC71B421BFD183000CDBDB /* BuienalarmHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuienalarmHelper.h; sourceTree = "<group>"; };
+		E9DC71B521BFD183000CDBDB /* BuienalarmHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuienalarmHelper.m; sourceTree = "<group>"; };
+		E9DC71B821BFE7BA000CDBDB /* NSImage+CTSBase64Representation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+CTSBase64Representation.h"; sourceTree = "<group>"; };
+		E9DC71B921BFE7BA000CDBDB /* NSImage+CTSBase64Representation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+CTSBase64Representation.m"; sourceTree = "<group>"; };
+		E9DC71BB21BFEEB7000CDBDB /* NSDate+CTSUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+CTSUtils.h"; sourceTree = "<group>"; };
+		E9DC71BC21BFEEB7000CDBDB /* NSDate+CTSUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CTSUtils.m"; sourceTree = "<group>"; };
+		E9DC71BE21C04AF2000CDBDB /* NSAttributedString+CTSReadableEventStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+CTSReadableEventStatus.h"; sourceTree = "<group>"; };
+		E9DC71BF21C04AF2000CDBDB /* NSAttributedString+CTSReadableEventStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+CTSReadableEventStatus.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +226,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E9D1D12521BF1036007A997C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC718321BFCB4C000CDBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC71A721BFCCCE000CDBDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -190,6 +266,9 @@
 				48AF8DFA212624E700EF5A6F /* btt-services-tests.xctest */,
 				48D0F8BF21267A2E00D91348 /* volume-service */,
 				48F152CA2126DA7F0021D020 /* controlstrip-service */,
+				E9D1D12821BF1036007A997C /* locale-service */,
+				E9DC718621BFCB4C000CDBDB /* localebase64icon */,
+				E9DC71AA21BFCCCE000CDBDB /* buienalarm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +276,9 @@
 		48AF8DEE212624C400EF5A6F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E9DC71B121BFD11A000CDBDB /* buienalarm */,
+				E9DC718021BFCB0D000CDBDB /* localebase64icon */,
+				E9D1D12021BF1016007A997C /* locale-service */,
 				48F152BA2126DA5D0021D020 /* controlstrip-service */,
 				48D0F8AF212679EE00D91348 /* volume-service */,
 				48AF8E052126290D00EF5A6F /* eventkit-service */,
@@ -233,6 +315,8 @@
 				4887763121264F3E00685702 /* NSString+CTSReadableEventStatus.m */,
 				48750AA4212BF41C0015F516 /* EKEvent+CTSVisibility.h */,
 				48750AA5212BF41C0015F516 /* EKEvent+CTSVisibility.m */,
+				E9DC71BE21C04AF2000CDBDB /* NSAttributedString+CTSReadableEventStatus.h */,
+				E9DC71BF21C04AF2000CDBDB /* NSAttributedString+CTSReadableEventStatus.m */,
 			);
 			path = "eventkit-service";
 			sourceTree = "<group>";
@@ -248,6 +332,10 @@
 				488776252126379D00685702 /* NSURL+CTSBetterTouchToolWebServerEndpoint.h */,
 				488776262126379D00685702 /* NSURL+CTSBetterTouchToolWebServerEndpoint.m */,
 				4887762F2126476C00685702 /* CTSWeakify.h */,
+				E9DC71B821BFE7BA000CDBDB /* NSImage+CTSBase64Representation.h */,
+				E9DC71B921BFE7BA000CDBDB /* NSImage+CTSBase64Representation.m */,
+				E9DC71BB21BFEEB7000CDBDB /* NSDate+CTSUtils.h */,
+				E9DC71BC21BFEEB7000CDBDB /* NSDate+CTSUtils.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -294,6 +382,34 @@
 				48F152CD2126DEF30021D020 /* CTSControlStripService.m */,
 			);
 			path = "controlstrip-service";
+			sourceTree = "<group>";
+		};
+		E9D1D12021BF1016007A997C /* locale-service */ = {
+			isa = PBXGroup;
+			children = (
+				E9D1D12121BF1016007A997C /* CTSLocaleService.m */,
+				E9D1D12221BF1016007A997C /* CTSLocaleService.h */,
+				E9D1D12321BF1016007A997C /* main.m */,
+			);
+			path = "locale-service";
+			sourceTree = "<group>";
+		};
+		E9DC718021BFCB0D000CDBDB /* localebase64icon */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC718121BFCB0D000CDBDB /* main.m */,
+			);
+			path = localebase64icon;
+			sourceTree = "<group>";
+		};
+		E9DC71B121BFD11A000CDBDB /* buienalarm */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC71B221BFD127000CDBDB /* main.m */,
+				E9DC71B421BFD183000CDBDB /* BuienalarmHelper.h */,
+				E9DC71B521BFD183000CDBDB /* BuienalarmHelper.m */,
+			);
+			path = buienalarm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,6 +484,57 @@
 			productReference = 48F152CA2126DA7F0021D020 /* controlstrip-service */;
 			productType = "com.apple.product-type.tool";
 		};
+		E9D1D12721BF1036007A997C /* locale-service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D1D12C21BF1036007A997C /* Build configuration list for PBXNativeTarget "locale-service" */;
+			buildPhases = (
+				E9D1D12421BF1036007A997C /* Sources */,
+				E9D1D12521BF1036007A997C /* Frameworks */,
+				E9D1D12621BF1036007A997C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "locale-service";
+			productName = "locale-service";
+			productReference = E9D1D12821BF1036007A997C /* locale-service */;
+			productType = "com.apple.product-type.tool";
+		};
+		E9DC718521BFCB4C000CDBDB /* localebase64icon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DC718A21BFCB4C000CDBDB /* Build configuration list for PBXNativeTarget "localebase64icon" */;
+			buildPhases = (
+				E9DC718221BFCB4C000CDBDB /* Sources */,
+				E9DC718321BFCB4C000CDBDB /* Frameworks */,
+				E9DC718421BFCB4C000CDBDB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = localebase64icon;
+			productName = localebase64icon;
+			productReference = E9DC718621BFCB4C000CDBDB /* localebase64icon */;
+			productType = "com.apple.product-type.tool";
+		};
+		E9DC71A921BFCCCE000CDBDB /* buienalarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DC71AE21BFCCCE000CDBDB /* Build configuration list for PBXNativeTarget "buienalarm" */;
+			buildPhases = (
+				E9DC71A621BFCCCE000CDBDB /* Sources */,
+				E9DC71A721BFCCCE000CDBDB /* Frameworks */,
+				E9DC71A821BFCCCE000CDBDB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buienalarm;
+			productName = buienalarm;
+			productReference = E9DC71AA21BFCCCE000CDBDB /* buienalarm */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -383,6 +550,15 @@
 					48AF8DF9212624E700EF5A6F = {
 						CreatedOnToolsVersion = 9.4;
 					};
+					E9D1D12721BF1036007A997C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E9DC718521BFCB4C000CDBDB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E9DC71A921BFCCCE000CDBDB = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 48AF8DE7212624C400EF5A6F /* Build configuration list for PBXProject "btt-services" */;
@@ -397,6 +573,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E9DC71A921BFCCCE000CDBDB /* buienalarm */,
+				E9D1D12721BF1036007A997C /* locale-service */,
+				E9DC718521BFCB4C000CDBDB /* localebase64icon */,
 				48AF8DEB212624C400EF5A6F /* eventkit-service */,
 				48D0F8B221267A2E00D91348 /* volume-service */,
 				48F152BD2126DA7F0021D020 /* controlstrip-service */,
@@ -421,6 +600,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				488776272126379D00685702 /* NSURL+CTSBetterTouchToolWebServerEndpoint.m in Sources */,
+				E9DC71C021C04AF2000CDBDB /* NSAttributedString+CTSReadableEventStatus.m in Sources */,
 				4887763221264F3E00685702 /* NSString+CTSReadableEventStatus.m in Sources */,
 				48AF8E04212625A800EF5A6F /* NSDictionary+CTSCommandLineArguments.m in Sources */,
 				48750AA6212BF41C0015F516 /* EKEvent+CTSVisibility.m in Sources */,
@@ -479,6 +659,38 @@
 				48F152C12126DA7F0021D020 /* NSDictionary+CTSCommandLineArguments.m in Sources */,
 				48F152CE2126DEF30021D020 /* CTSControlStripService.m in Sources */,
 				48F152CB2126DA9E0021D020 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D1D12421BF1036007A997C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D1D13321BF1B4D007A997C /* NSURL+CTSBetterTouchToolWebServerEndpoint.m in Sources */,
+				E9D1D12F21BF1043007A997C /* CTSLocaleService.m in Sources */,
+				E9D1D13021BF1043007A997C /* main.m in Sources */,
+				E9D1D13221BF19F4007A997C /* NSDictionary+CTSCommandLineArguments.m in Sources */,
+				E9D1D13121BF1602007A997C /* CTSBetterTouchToolWebServerConfiguration.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC718221BFCB4C000CDBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DC718D21BFCB6C000CDBDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC71A621BFCCCE000CDBDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DC71B321BFD127000CDBDB /* main.m in Sources */,
+				E9DC71B721BFD882000CDBDB /* NSDictionary+CTSCommandLineArguments.m in Sources */,
+				E9DC71B621BFD183000CDBDB /* BuienalarmHelper.m in Sources */,
+				E9DC71BD21BFEEB7000CDBDB /* NSDate+CTSUtils.m in Sources */,
+				E9DC71BA21BFE7BA000CDBDB /* NSImage+CTSBase64Representation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +898,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -694,6 +907,61 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9D1D12D21BF1036007A997C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9D1D12E21BF1036007A997C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9DC718B21BFCB4C000CDBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9DC718C21BFCB4C000CDBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9DC71AF21BFCCCE000CDBDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = /;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9DC71B021BFCCCE000CDBDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INSTALL_PATH = /;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -742,6 +1010,33 @@
 			buildConfigurations = (
 				48F152C82126DA7F0021D020 /* Debug */,
 				48F152C92126DA7F0021D020 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D1D12C21BF1036007A997C /* Build configuration list for PBXNativeTarget "locale-service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D1D12D21BF1036007A997C /* Debug */,
+				E9D1D12E21BF1036007A997C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DC718A21BFCB4C000CDBDB /* Build configuration list for PBXNativeTarget "localebase64icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DC718B21BFCB4C000CDBDB /* Debug */,
+				E9DC718C21BFCB4C000CDBDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DC71AE21BFCCCE000CDBDB /* Build configuration list for PBXNativeTarget "buienalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DC71AF21BFCCCE000CDBDB /* Debug */,
+				E9DC71B021BFCCCE000CDBDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
